@@ -1,0 +1,20 @@
+<svg id="레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="4.44in" height="4.34in" viewBox="0 0 319.33 312.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-236.52 -149.99)">
+      <circle class="cls-1" cx="357.51" cy="188.41" r="29.8"/>
+    </clipPath>
+  </defs>
+  <title>drum_icons</title>
+  <g class="cls-2">
+    <image width="450" height="440" transform="scale(0.71)" xlink:href="../../music_icons.jpg"/>
+  </g>
+</svg>
