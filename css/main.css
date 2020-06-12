@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-repeat: repeat;
+	background-color: #FEFAEC;
+	color: #FFF;
+	font-family: 'Indie Flower', cursive;
+	font-size: 16px;
+}
+
+h2 {
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+
+p {
+	font-size: 40px;
+	text-align: center;
+	color: #625772;
+}
+.hidden { display: none }
+
+#game-boards { 
+	width: 100%; text-align: center; 
+}
+
+.sectionContainer {
+	width: 780px;
+	height: 150px;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.sectionContainer img {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.sectionContainer img:hover {
+	opacity: .5;
+}
