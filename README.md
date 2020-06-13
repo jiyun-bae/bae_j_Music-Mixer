@@ -1,8 +1,10 @@
 # IamDJ
 
-Concept: A world-wide DJ Music-Mixer App 
+Concept: A world-wide DJ Music-Mixer App
 
 Description: This is a world-wide DJ music-mixer app that you can enjoy a significant number of sounds with simple sources in a way you want. By adding the icons to dj controller, you can have an effect like loop station.
+
+Do you want to be a DJ? Try this first. 
 
 -----------------------------------------------------
 MIT License
