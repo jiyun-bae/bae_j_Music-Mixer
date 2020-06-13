@@ -22,7 +22,8 @@ p {
 .hidden { display: none }
 
 #game-boards { 
-	width: 100%; text-align: center; 
+	width: 100%; 
+	text-align: center; 
 }
 
 .sectionContainer {
@@ -41,4 +42,26 @@ p {
 
 .sectionContainer img:hover {
 	opacity: .5;
+}
+
+#FooterNav {
+	position: center;
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#FooterNav li {
+	display: inline;
+	padding: 5%;
+}
+
+#FooterNav li a {
+	text-decoration: none; /* remove underline */
+	color: lightblue;
+}
+
+#FooterNav li a:hover {
+	color: #EF5F43;
 }
