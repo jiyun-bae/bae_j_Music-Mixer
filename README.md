@@ -6,6 +6,8 @@ Description: This is a world-wide DJ music-mixer app that you can enjoy a signif
 
 Do you want to be a DJ? Try this first. 
 
+<img src="images/DJ example.jpg" alt="DJ image">
+
 -----------------------------------------------------
 MIT License
 
