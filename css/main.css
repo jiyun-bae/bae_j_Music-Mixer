@@ -19,29 +19,100 @@ p {
 	text-align: center;
 	color: #625772;
 }
-.hidden { display: none }
+
+.hidden { 
+	display: none 
+}
 
 #game-boards { 
 	width: 100%; 
 	text-align: center; 
 }
 
-.sectionContainer {
-	width: 780px;
-	height: 150px;
+.puzzle-pieces {
+	margin-top: 20px;
+	height: 400px;
+	display: inline-block;
+	border: medium solid #333;
+	background-color: lightblue;
+	color: inherit;
+	overflow: hidden;
+	width: 200px; 
+	margin-right: 20px;
+}
+
+.MainImage {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.puzzle-board { 
+	width: 200px; 
+	margin-top: 40px;
+	height: 400px;
+	display: inline-block;
+	border: medium solid lightblue;
 	background-color: white;
-	width: 100%;
-	text-align: center;
-	margin-top: 25px;
+	color: inherit;
+	overflow: hidden;
+	margin-left: 18px;
 }
 
-.sectionContainer img {
-	text-align: center;
-	margin-top: 50px;
+.puzzle-image {
+	width: 30%;
+	padding: 8px;
+	cursor: pointer;
 }
 
-.sectionContainer img:hover {
-	opacity: .5;
+.puzzle-pieces img:nth-child(odd) { 
+	margin-left: auto 
+}
+
+/* arrange the puzzle pieces on the board */
+.drop-zone img {
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+	margin: 0;
+	width: auto;
+}
+
+.br img, .bl img, .tr img, .tl img { top: 5px; left: 3px;}
+
+
+/* set up drop zones */
+.drop-zone {
+	width: 34%;
+	height: 18%;
+	border: thin dashed black;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+/* end board styles */
+
+
+header {
+	position: relative;
+	top: 20px;
+	width: 600px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+header h2 {
+	font-size: 3em;
+  letter-spacing: 3px;
+	margin: 10px 0
+}
+
+footer {
+	position: relative;
+	width: 600px;
+	margin: 65px auto 0;
+	text-align: center;
 }
 
 #FooterNav {
@@ -65,3 +136,15 @@ p {
 #FooterNav li a:hover {
 	color: #EF5F43;
 }
+
+#buttonHolder { margin: 0px auto; text-align: center; }
+
+#buttonHolder img {
+	margin-left: 5px;
+	margin-right: 5px;
+	border-radius: 20px;
+	border: thin solid #333;
+	cursor: pointer;
+}
+
+#buttonHolder img:hover { opacity: .5; }
