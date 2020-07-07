@@ -43,8 +43,6 @@
 		// let currentTrack = event.dataTransfer.getData('targetTrack');
 
 		event.target.appendChild(document.querySelector(`#${droppedImage}`));
-
-
 	}
 
 		// set a function for reset puzzle piece
@@ -120,6 +118,11 @@
 		zone.addEventListener('drop', allowDrop);
 	}
 
-	changeImageSet.call(puzzleButtons[0]);	
+	changeImageSet.call(puzzleButtons[0]);
+
+	var myMusic= document.getElementById("audio_play");
+    function play() {
+    	myMusic.play();
+    }
 
 })();

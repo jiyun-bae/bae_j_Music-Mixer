@@ -16,6 +16,38 @@
 	<section id="game-boards">
 		<h2 class="hidden">The Game Board</h2>
 
+		<audio id="audio_play">
+			<source src="sounds/accordion.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="base">
+			<source src="sounds/base.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="drum-set">
+			<source src="sounds/drum-set.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="drum">
+			<source src="sounds/drum.wav" type="audio/wav">
+		</audio>
+		<audio id="electronic-guitar">
+			<source src="sounds/electronic-guitar.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="guitar">
+			<source src="sounds/guitar.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="harf">
+			<source src="sounds/harf.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="mic">
+			<source src="sounds/mic.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="trumpet">
+			<source src="sounds/trumpet.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="xylophone">
+			<source src="sounds/xylophone.mp3" type="audio/mpeg">
+		</audio>
+
+
 		<!-- these are the draggable pieces -> drag them to the right -->
 		<div class="puzzle-pieces" id="left"> <!-- parent node -->
 			<h3 class="hidden">The Drag Zone</h3>
@@ -38,16 +70,16 @@
 		<!-- drop the puzzle pieces here -->
 		<div class="puzzle-board">
 			<h3 class="hidden">The Drop Zones</h3>
-			<div class="drop-zone tl" id="zone1"></div>
-			<div class="drop-zone tr" id="zone2"></div>
-			<div class="drop-zone bl" id="zone3"></div>
-			<div class="drop-zone br" id="zone4"></div>
-			<div class="drop-zone br" id="zone5"></div>
-			<div class="drop-zone br" id="zone6"></div>
-			<div class="drop-zone br" id="zone7"></div>
-			<div class="drop-zone br" id="zone8"></div>
-			<div class="drop-zone br" id="zone9"></div>
-			<div class="drop-zone br" id="zone10"></div>
+			<div class="drop-zone tl" id="zone1" onDrop="document.getElementById('audio_play').play(); return false;"></div>
+			<div class="drop-zone tr" id="zone2" onDrop="document.getElementById('base').play(); return false;"></div>
+			<div class="drop-zone bl" id="zone3" onDrop="document.getElementById('drum-set').play(); return false;"></div>
+			<div class="drop-zone br" id="zone4" onDrop="document.getElementById('drum').play(); return false;"></div>
+			<div class="drop-zone br" id="zone5" onDrop="document.getElementById('electronic-guitar').play(); return false;"></div>
+			<div class="drop-zone br" id="zone6" onDrop="document.getElementById('guitar').play(); return false;"></div>
+			<div class="drop-zone br" id="zone7" onDrop="document.getElementById('harf').play(); return false;"></div>
+			<div class="drop-zone br" id="zone8" onDrop="document.getElementById('mic').play(); return false;"></div>
+			<div class="drop-zone br" id="zone9" onDrop="document.getElementById('trumpet').play(); return false;"></div>
+			<div class="drop-zone br" id="zone10" onDrop="document.getElementById('xylophone').play(); return false;"></div>
 		</div>
 	</section>
 
