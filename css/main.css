@@ -20,13 +20,13 @@ p {
 	color: #625772;
 }
 
-.hidden { 
-	display: none 
+.hidden {
+	display: none
 }
 
-#game-boards { 
-	width: 100%; 
-	text-align: center; 
+#game-boards {
+	width: 100%;
+	text-align: center;
 }
 
 .puzzle-pieces {
@@ -37,7 +37,7 @@ p {
 	background-color: white;
 	color: inherit;
 	overflow: hidden;
-	width: 200px; 
+	width: 200px;
 	margin-right: 20px;
 }
 
@@ -46,8 +46,8 @@ p {
 	display: inline-block;
 }
 
-.puzzle-board { 
-	width: 200px; 
+.puzzle-board {
+	width: 200px;
 	margin-top: 40px;
 	height: 400px;
 	display: inline-block;
@@ -65,8 +65,8 @@ p {
 	margin-bottom: -5px;
 }
 
-.puzzle-pieces img:nth-child(odd) { 
-	margin-left: auto 
+.puzzle-pieces img:nth-child(odd) {
+	margin-left: auto
 }
 
 /* arrange the puzzle pieces on the board */
@@ -93,7 +93,6 @@ p {
 }
 
 /* end board styles */
-
 
 header {
 	position: relative;
@@ -137,15 +136,3 @@ footer {
 #FooterNav li a:hover {
 	color: #EF5F43;
 }
-
-#buttonHolder { margin: 0px auto; text-align: center; }
-
-#buttonHolder img {
-	margin-left: 5px;
-	margin-right: 5px;
-	border-radius: 20px;
-	border: thin solid #333;
-	cursor: pointer;
-}
-
-#buttonHolder img:hover { opacity: .5; }
