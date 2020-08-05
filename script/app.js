@@ -32,7 +32,7 @@
 	}
 
 	function allowDragOver(event) {
-		event.preventDefault(); // for next week
+		event.preventDefault();
 		console.log("dragged something over me!");
 	}
 
@@ -124,5 +124,6 @@
     function play() {
     	myMusic.play();
     }
+
 
 })();

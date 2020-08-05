@@ -10,7 +10,7 @@
 		<header id="headLine">
 		<h1 class="hidden">Music-Mixer</h1>
 		<h2>Let's be a DJ!</h2>
-	  <p>Put Music icons into a right box -></p>
+	  <h3>Put Music icons into a right box -></h3>
 	</header>
 
 	<section id="game-boards">
@@ -82,6 +82,17 @@
 			<div class="drop-zone br" id="zone10" onDrop="document.getElementById('xylophone').play(); return false;"></div>
 		</div>
 	</section>
+
+	<div class="wrapper">
+		<p>There is a precious message for you. Click to see it.</p>
+	<button class="button" onclick="myFunction()">To be a DJ</button>
+	<p id="demo"></p>
+</div>
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br> This is a world-wide DJ music-mixer app that you can enjoy a significant number of sounds with simple sources in a way you want.<br> By adding the icons to dj controller, you can have an effect like loop station. Enjoy your bestet!";
+      }
+    </script>
 
 	<footer>
 		<nav id="FooterNav">

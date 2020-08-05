@@ -14,10 +14,16 @@ h2 {
 	color: black;
 }
 
-p {
+h3 {
 	font-size: 40px;
 	text-align: center;
 	color: #625772;
+}
+
+p {
+	color: black;
+	margin-top: 20px;
+	font-size: 18px;
 }
 
 .hidden {
@@ -38,7 +44,7 @@ p {
 	color: inherit;
 	overflow: hidden;
 	width: 200px;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .MainImage {
@@ -55,7 +61,7 @@ p {
 	background-color: white;
 	color: inherit;
 	overflow: hidden;
-	margin-left: 18px;
+	margin-left: 10px;
 }
 
 .puzzle-image {
@@ -113,6 +119,25 @@ footer {
 	width: 600px;
 	margin: 65px auto 0;
 	text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+  background-color: lightblue;
+  border: thin solid #EF5F43;
+  color: #625772;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #FooterNav {
